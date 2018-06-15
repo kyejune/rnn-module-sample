@@ -1,0 +1,23 @@
+{
+  "name": "rnn-module-sample",
+  "version": "1.0.0",
+  "description": "react-native 와 native 연결 샘플",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyejune/rnn-module-sample.git"
+  },
+  "keywords": [
+    "rnn",
+    "react-native-native"
+  ],
+  "author": "kyejune",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyejune/rnn-module-sample/issues"
+  },
+  "homepage": "https://github.com/kyejune/rnn-module-sample#readme"
+}
