@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD73D6AF20D39D12008578F9 /* rnn_module_sample.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73D6AE20D39D12008578F9 /* rnn_module_sample.m */; };
-		BD73D6B020D39D12008578F9 /* rnn_module_sample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD73D6AD20D39D12008578F9 /* rnn_module_sample.h */; };
+		BD73D6AF20D39D12008578F9 /* RnnModuleSample.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73D6AE20D39D12008578F9 /* RnnModuleSample.m */; };
+		BD73D6B020D39D12008578F9 /* RnnModuleSample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD73D6AD20D39D12008578F9 /* RnnModuleSample.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				BD73D6B020D39D12008578F9 /* rnn_module_sample.h in CopyFiles */,
+				BD73D6B020D39D12008578F9 /* RnnModuleSample.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +26,8 @@
 
 /* Begin PBXFileReference section */
 		BD73D6AA20D39D12008578F9 /* librnn-module-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librnn-module-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD73D6AD20D39D12008578F9 /* rnn_module_sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rnn_module_sample.h; sourceTree = "<group>"; };
-		BD73D6AE20D39D12008578F9 /* rnn_module_sample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnn_module_sample.m; sourceTree = "<group>"; };
+		BD73D6AD20D39D12008578F9 /* RnnModuleSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RnnModuleSample.h; sourceTree = "<group>"; };
+		BD73D6AE20D39D12008578F9 /* RnnModuleSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnnModuleSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		BD73D6AC20D39D12008578F9 /* rnn-module-sample */ = {
 			isa = PBXGroup;
 			children = (
-				BD73D6AD20D39D12008578F9 /* rnn_module_sample.h */,
-				BD73D6AE20D39D12008578F9 /* rnn_module_sample.m */,
+				BD73D6AD20D39D12008578F9 /* RnnModuleSample.h */,
+				BD73D6AE20D39D12008578F9 /* RnnModuleSample.m */,
 			);
 			path = "rnn-module-sample";
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD73D6AF20D39D12008578F9 /* rnn_module_sample.m in Sources */,
+				BD73D6AF20D39D12008578F9 /* RnnModuleSample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  rnn_module_sample.h
+//  RnnModuleSample.h
 //  rnn-module-sample
 //
 //  Created by KyeJune Hong on 15/06/2018.
@@ -8,6 +8,6 @@
 
 #import <React/RCTBridgeModule.h>
 
-@interface rnn_module_sample : NSObject <RCTBridgeModule>
+@interface RnnModuleSample : NSObject <RCTBridgeModule>
 
 @end

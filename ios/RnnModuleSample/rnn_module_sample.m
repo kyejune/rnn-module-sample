@@ -1,14 +1,14 @@
 //
-//  rnn_module_sample.m
+//  RnnModuleSample.m
 //  rnn-module-sample
 //
 //  Created by KyeJune Hong on 15/06/2018.
 //  Copyright © 2018 KyeJune Hong. All rights reserved.
 //
 
-#import "rnn_module_sample.h"
+#import "RnnModuleSample.h"
 
-@implementation rnn_module_sample
+@implementation RnnModuleSample
 
 
 RCT_EXPORT_MODULE();
