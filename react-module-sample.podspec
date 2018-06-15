@@ -3,14 +3,14 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name           = 'react-native-custom-module'
+  s.name           = 'rnn-module-sample'
   s.version        = package['version']
   s.summary        = package['description']
   s.description    = package['description']
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.source         = { :git => 'https://github.com/httpdeveloper/react-native-custom-module', :tag => s.version }
+  s.source         = { :git => 'https://github.com/kyejune/rnn-module-sample', :tag => s.version }
 
   s.requires_arc   = true
   s.platform       = :ios, '8.0'
