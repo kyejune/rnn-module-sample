@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:rnn-module-sample.xcodeproj">
+      location = "self:RnnModuleSample.xcodeproj">
    </FileRef>
 </Workspace>

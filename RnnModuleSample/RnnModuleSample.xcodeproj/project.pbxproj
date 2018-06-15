@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD73D6AF20D39D12008578F9 /* RnnModuleSample.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73D6AE20D39D12008578F9 /* RnnModuleSample.m */; };
-		BD73D6B020D39D12008578F9 /* RnnModuleSample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD73D6AD20D39D12008578F9 /* RnnModuleSample.h */; };
+		BD51DA6920D3A77000CD464D /* RnnModuleSample.m in Sources */ = {isa = PBXBuildFile; fileRef = BD51DA6820D3A77000CD464D /* RnnModuleSample.m */; };
+		BD51DA6A20D3A77000CD464D /* RnnModuleSample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD51DA6720D3A77000CD464D /* RnnModuleSample.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BD73D6A820D39D12008578F9 /* CopyFiles */ = {
+		BD51DA6220D3A77000CD464D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				BD73D6B020D39D12008578F9 /* RnnModuleSample.h in CopyFiles */,
+				BD51DA6A20D3A77000CD464D /* RnnModuleSample.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BD73D6AA20D39D12008578F9 /* librnn-module-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librnn-module-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD73D6AD20D39D12008578F9 /* RnnModuleSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RnnModuleSample.h; sourceTree = "<group>"; };
-		BD73D6AE20D39D12008578F9 /* RnnModuleSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnnModuleSample.m; sourceTree = "<group>"; };
+		BD51DA6420D3A77000CD464D /* libRnnModuleSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRnnModuleSample.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD51DA6720D3A77000CD464D /* RnnModuleSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RnnModuleSample.h; sourceTree = "<group>"; };
+		BD51DA6820D3A77000CD464D /* RnnModuleSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnnModuleSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BD73D6A720D39D12008578F9 /* Frameworks */ = {
+		BD51DA6120D3A77000CD464D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,95 +41,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD73D6A120D39D12008578F9 = {
+		BD51DA5B20D3A77000CD464D = {
 			isa = PBXGroup;
 			children = (
-				BD73D6AC20D39D12008578F9 /* rnn-module-sample */,
-				BD73D6AB20D39D12008578F9 /* Products */,
+				BD51DA6620D3A77000CD464D /* RnnModuleSample */,
+				BD51DA6520D3A77000CD464D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BD73D6AB20D39D12008578F9 /* Products */ = {
+		BD51DA6520D3A77000CD464D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD73D6AA20D39D12008578F9 /* librnn-module-sample.a */,
+				BD51DA6420D3A77000CD464D /* libRnnModuleSample.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD73D6AC20D39D12008578F9 /* rnn-module-sample */ = {
+		BD51DA6620D3A77000CD464D /* RnnModuleSample */ = {
 			isa = PBXGroup;
 			children = (
-				BD73D6AD20D39D12008578F9 /* RnnModuleSample.h */,
-				BD73D6AE20D39D12008578F9 /* RnnModuleSample.m */,
+				BD51DA6720D3A77000CD464D /* RnnModuleSample.h */,
+				BD51DA6820D3A77000CD464D /* RnnModuleSample.m */,
 			);
-			path = "rnn-module-sample";
+			path = RnnModuleSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD73D6A920D39D12008578F9 /* rnn-module-sample */ = {
+		BD51DA6320D3A77000CD464D /* RnnModuleSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD73D6B320D39D12008578F9 /* Build configuration list for PBXNativeTarget "rnn-module-sample" */;
+			buildConfigurationList = BD51DA6D20D3A77000CD464D /* Build configuration list for PBXNativeTarget "RnnModuleSample" */;
 			buildPhases = (
-				BD73D6A620D39D12008578F9 /* Sources */,
-				BD73D6A720D39D12008578F9 /* Frameworks */,
-				BD73D6A820D39D12008578F9 /* CopyFiles */,
+				BD51DA6020D3A77000CD464D /* Sources */,
+				BD51DA6120D3A77000CD464D /* Frameworks */,
+				BD51DA6220D3A77000CD464D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "rnn-module-sample";
-			productName = "rnn-module-sample";
-			productReference = BD73D6AA20D39D12008578F9 /* librnn-module-sample.a */;
+			name = RnnModuleSample;
+			productName = RnnModuleSample;
+			productReference = BD51DA6420D3A77000CD464D /* libRnnModuleSample.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BD73D6A220D39D12008578F9 /* Project object */ = {
+		BD51DA5C20D3A77000CD464D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "KyeJune Hong";
 				TargetAttributes = {
-					BD73D6A920D39D12008578F9 = {
+					BD51DA6320D3A77000CD464D = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = BD73D6A520D39D12008578F9 /* Build configuration list for PBXProject "rnn-module-sample" */;
+			buildConfigurationList = BD51DA5F20D3A77000CD464D /* Build configuration list for PBXProject "RnnModuleSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BD73D6A120D39D12008578F9;
-			productRefGroup = BD73D6AB20D39D12008578F9 /* Products */;
+			mainGroup = BD51DA5B20D3A77000CD464D;
+			productRefGroup = BD51DA6520D3A77000CD464D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD73D6A920D39D12008578F9 /* rnn-module-sample */,
+				BD51DA6320D3A77000CD464D /* RnnModuleSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BD73D6A620D39D12008578F9 /* Sources */ = {
+		BD51DA6020D3A77000CD464D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD73D6AF20D39D12008578F9 /* RnnModuleSample.m in Sources */,
+				BD51DA6920D3A77000CD464D /* RnnModuleSample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BD73D6B120D39D12008578F9 /* Debug */ = {
+		BD51DA6B20D3A77000CD464D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		BD73D6B220D39D12008578F9 /* Release */ = {
+		BD51DA6C20D3A77000CD464D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +239,7 @@
 			};
 			name = Release;
 		};
-		BD73D6B420D39D12008578F9 /* Debug */ = {
+		BD51DA6E20D3A77000CD464D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		BD73D6B520D39D12008578F9 /* Release */ = {
+		BD51DA6F20D3A77000CD464D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD73D6A520D39D12008578F9 /* Build configuration list for PBXProject "rnn-module-sample" */ = {
+		BD51DA5F20D3A77000CD464D /* Build configuration list for PBXProject "RnnModuleSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD73D6B120D39D12008578F9 /* Debug */,
-				BD73D6B220D39D12008578F9 /* Release */,
+				BD51DA6B20D3A77000CD464D /* Debug */,
+				BD51DA6C20D3A77000CD464D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD73D6B320D39D12008578F9 /* Build configuration list for PBXNativeTarget "rnn-module-sample" */ = {
+		BD51DA6D20D3A77000CD464D /* Build configuration list for PBXNativeTarget "RnnModuleSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD73D6B420D39D12008578F9 /* Debug */,
-				BD73D6B520D39D12008578F9 /* Release */,
+				BD51DA6E20D3A77000CD464D /* Debug */,
+				BD51DA6F20D3A77000CD464D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BD73D6A220D39D12008578F9 /* Project object */;
+	rootObject = BD51DA5C20D3A77000CD464D /* Project object */;
 }
