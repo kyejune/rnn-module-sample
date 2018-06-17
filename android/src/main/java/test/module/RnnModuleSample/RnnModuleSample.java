@@ -1,4 +1,4 @@
-package com.eegoma.RNAudioPlayer;
+package test.module.RnnModuleSample;
 
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -30,13 +30,19 @@ public class RnnModuleSample extends ReactContextBaseJavaModule implements Media
 
     @Override
     public String getName() {
-        return "RNAudioPlayer";
+        return "RnnModuleSample";
     }
 
     private void sendEvent(String eventName, @Nullable WritableMap params) {
         this.reactContext
                 .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
                 .emit(eventName, params);
+    }
+
+    @ReactMethod
+    public void callback( Callback callbackFunc ){
+
+        callbackFunc.invoke("sadfsdfsaf");
     }
 
     @ReactMethod
