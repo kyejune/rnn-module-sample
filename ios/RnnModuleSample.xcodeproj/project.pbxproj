@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDA7AA4520D62C18001AFD63 /* RnnModuleSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA7AA4420D62C18001AFD63 /* RnnModuleSampleView.m */; };
 		BDCD0D0620D41FE500038D8C /* RnnModuleSample.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCD0D0520D41FE500038D8C /* RnnModuleSample.m */; };
 		BDCD0D0720D41FE500038D8C /* RnnModuleSample.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDCD0D0420D41FE500038D8C /* RnnModuleSample.h */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BDA7AA4420D62C18001AFD63 /* RnnModuleSampleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnnModuleSampleView.m; sourceTree = "<group>"; };
 		BDCD0D0120D41FE500038D8C /* libRnnModuleSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRnnModuleSample.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCD0D0420D41FE500038D8C /* RnnModuleSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RnnModuleSample.h; sourceTree = "<group>"; };
 		BDCD0D0520D41FE500038D8C /* RnnModuleSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnnModuleSample.m; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				BDCD0D0420D41FE500038D8C /* RnnModuleSample.h */,
 				BDCD0D0520D41FE500038D8C /* RnnModuleSample.m */,
+				BDA7AA4420D62C18001AFD63 /* RnnModuleSampleView.m */,
 			);
 			path = RnnModuleSample;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCD0D0620D41FE500038D8C /* RnnModuleSample.m in Sources */,
+				BDA7AA4520D62C18001AFD63 /* RnnModuleSampleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
